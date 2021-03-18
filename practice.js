@@ -11,6 +11,7 @@
 // printNumbersDivisibleByThree();
 
 
+
 // // Write a method that accepts an array of strings and prints out every other string.
 // function printEveryOtherItem(strings) {
 //   var index = 0;

@@ -124,29 +124,28 @@
 # Write a method that accepts a number and returns its factorial.
 # For example, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
 
-def facto(number)
-  product = 1
-  while number > 0
-    product *= number
-    number -= 1
-  end
-  return product
-end
+# def facto(number)
+#   product = 1
+#   while number > 0
+#     product *= number
+#     number -= 1
+#   end
+#   return product
+# end
 
-p facto(5)
+# p facto(5)
 
 # Write a method that accepts two arrays of numbers, and prints the sum of every combination of numbers from first and second array.
 # For example, if the method receives [1, 5, 10] and [100, 500, 1000], the method should print a list: 101, 501, 1001, 105, 505, 1005, 110, 510, 1010].
 
+# def all_sums(numbers1, numbers2)
+#   final_array = []
+#   numbers1.each do |number1|
+#     numbers2.each do |number2|
+#       final_array << number 1 + number 2
+#     end
+#   end
+#   return final_array
+# end
 
-def all_sums(numbers1, numbers2)
-  final_array = []
-  numbers1.each do |number1|
-    numbers2.each do |number2|
-      final_array << number 1 + number 2
-    end
-  end
-  return final_array
-end
-
-p all_sums([1, 5, 10], [100, 500, 1000])
+# p all_sums([1, 5, 10], [100, 500, 1000])
